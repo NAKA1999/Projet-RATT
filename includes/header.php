@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Police douce (Google Fonts) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <!-- Ton CSS perso -->
+
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -42,6 +42,9 @@
         <li class="nav-item">
           <a class="nav-link<?php echo basename($_SERVER['PHP_SELF'])=='association.php' ? ' active' : ''; ?>" href="association.php">L’Association</a>
         </li>
+        <li class="nav-item">
+  <a class="nav-link<?php echo basename($_SERVER['PHP_SELF'])=='contact.php' ? ' active' : ''; ?>" href="contact.php">Contact</a>
+</li>
       </ul>
     </div>
 
