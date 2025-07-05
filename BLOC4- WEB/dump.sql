@@ -1,0 +1,11 @@
+
+CREATE DATABASE IF NOT EXISTS adopteunchien CHARACTER SET utf8mb4;
+USE adopteunchien;
+
+CREATE TABLE chiens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    race VARCHAR(100) NOT NULL,
+    photo VARCHAR(255) NOT NULL
+);
