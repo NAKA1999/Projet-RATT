@@ -1,0 +1,7 @@
+petit;actif;appartement;enfants;Jack Russell
+petit;calme;appartement;pas_enfants;Carlin
+moyen;actif;maison;enfants;Border Collie
+moyen;calme;maison;pas_enfants;Basset Hound
+grand;actif;maison;enfants;Berger Allemand
+grand;calme;maison;pas_enfants;Terre-Neuve
+  
